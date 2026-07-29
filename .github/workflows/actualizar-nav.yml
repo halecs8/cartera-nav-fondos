@@ -1,0 +1,37 @@
+name: Actualizar NAV fondos BlackRock
+
+on:
+  schedule:
+    # 06:00 UTC todos los días — da tiempo de sobra a que BlackRock haya
+    # publicado el NAV de la última jornada antes de que este job lo lea.
+    - cron: '0 6 * * *'
+  workflow_dispatch: {}   # permite lanzarlo a mano desde la pestaña "Actions"
+
+permissions:
+  contents: write
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Instalar dependencias
+        run: |
+          pip install playwright
+          playwright install --with-deps chromium
+
+      - name: Ejecutar scraper
+        run: python actualizar_nav_fondos.py
+
+      - name: Publicar nav_fondos.json si cambió
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add nav_fondos.json
+          git diff --staged --quiet || git commit -m "Actualizar NAV fondos $(date -u +%Y-%m-%d)"
+          git push
