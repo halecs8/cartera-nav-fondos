@@ -1,14 +1,14 @@
 {
-  "actualizado": "2026-07-31T12:33:13+00:00",
+  "actualizado": "2026-08-01T11:12:29+00:00",
   "fondos": {
     "IE000ZYRH0Q7": {
       "isin": "IE000ZYRH0Q7",
       "divisa": "EUR",
-      "nav": 11.85,
-      "variacion_importe": -0.13,
-      "variacion_pct": -1.12,
-      "fecha_nav": "2026-07-29",
-      "fecha_nav_label": "29 jul 2026",
+      "nav": 11.92,
+      "variacion_importe": 0.07,
+      "variacion_pct": 0.56,
+      "fecha_nav": "2026-07-30",
+      "fecha_nav_label": "30 jul 2026",
       "nombre": "iShares Developed World Index Fund (IE) S Acc EUR"
     },
     "IE000QAZP7L2": {
