@@ -1,24 +1,24 @@
 {
-  "actualizado": "2026-08-30T11:40:55+00:00",
+  "actualizado": "2026-08-31T13:16:49+00:00",
   "fondos": {
     "IE000ZYRH0Q7": {
       "isin": "IE000ZYRH0Q7",
       "divisa": "EUR",
-      "nav": 12.2,
-      "variacion_importe": 0.05,
-      "variacion_pct": 0.42,
-      "fecha_nav": "2026-08-27",
-      "fecha_nav_label": "27 ago 2026",
+      "nav": 12.21,
+      "variacion_importe": 0.01,
+      "variacion_pct": 0.07,
+      "fecha_nav": "2026-08-28",
+      "fecha_nav_label": "28 ago 2026",
       "nombre": "iShares Developed World Index Fund (IE) S Acc EUR"
     },
     "IE000QAZP7L2": {
       "isin": "IE000QAZP7L2",
       "divisa": "EUR",
-      "nav": 13.92,
-      "variacion_importe": 0.05,
-      "variacion_pct": 0.34,
-      "fecha_nav": "2026-08-27",
-      "fecha_nav_label": "27 ago 2026",
+      "nav": 13.94,
+      "variacion_importe": 0.02,
+      "variacion_pct": 0.16,
+      "fecha_nav": "2026-08-28",
+      "fecha_nav_label": "28 ago 2026",
       "nombre": "iShares Emerging Markets Index Fund (IE) S Acc EUR"
     }
   }
