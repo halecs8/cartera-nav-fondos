@@ -1,5 +1,5 @@
 {
-  "actualizado": "2026-09-08T10:59:54+00:00",
+  "actualizado": "2026-09-09T11:04:17+00:00",
   "fondos": {
     "IE000ZYRH0Q7": {
       "isin": "IE000ZYRH0Q7",
@@ -14,11 +14,11 @@
     "IE000QAZP7L2": {
       "isin": "IE000QAZP7L2",
       "divisa": "EUR",
-      "nav": 13.99,
-      "variacion_importe": 0.19,
-      "variacion_pct": 1.39,
-      "fecha_nav": "2026-09-04",
-      "fecha_nav_label": "04 sept 2026",
+      "nav": 14.22,
+      "variacion_importe": 0.23,
+      "variacion_pct": 1.63,
+      "fecha_nav": "2026-09-07",
+      "fecha_nav_label": "07 sept 2026",
       "nombre": "iShares Emerging Markets Index Fund (IE) S Acc EUR"
     }
   }
